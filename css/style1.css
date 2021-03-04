@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html, body {
+  font-family: 'Roboto Mono', monospace;
+  background: url(../img/json.jpg) no-repeat center center / cover;
+  height: 100%;
+  
+}
+
+.container{
+      height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text{
+    background: rgba(72, 72, 16, 0.248);
+    font-weight: bold;
+  font-size: 56px;
+  color: rgb(255, 0, 0)  ;
+  margin-bottom: 400px;
+}
+
+.dud{
+  color: #757575 ; 
+}
+  
+
+.ffff{
+  background: red;
+}
+
+
+.navbar326{
+  margin-left: 700px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(220, 32, 32);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(250, 139, 139, 0.878);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(225, 43, 43, 0.9);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.kurslar{
+  margin-right: 20px;
+ 
+  
+}
+
+
+@media (max-width: 819px) {
+  body{
+    width: 800px;
+  }
+}
